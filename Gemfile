@@ -15,6 +15,10 @@ platforms :ruby do
   gem 'pg'
 end
 
+group :production do
+  gem "pg"
+end
+
 platforms :jruby do
   gem 'activerecord-jdbcsqlite3-adapter'
   gem 'trinidad'
