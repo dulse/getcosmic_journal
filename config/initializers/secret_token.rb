@@ -11,5 +11,5 @@ else
 
   # If this is an open source project, DO NOT commit your secret to source
   # control. Load it from ENV or a file that is git ignored (File.read)
-  Enki::Application.config.secret_token = 'paste your token here'
+  Enki::Application.config.secret_token = '82715c95bbfdcf0c4aeb7b1686ae9add75917122da18faebfec597aacc8b522a154a330b0b5cd4f5a62068aa129f54e31eea340d8f33fb74a83bfe36415c7bf0'
 end
