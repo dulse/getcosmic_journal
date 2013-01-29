@@ -45,7 +45,7 @@ gem 'coderay'
 gem 'lesstile'
 gem 'formtastic'
 gem 'will_paginate', '~> 3.0.2'
-# gem 'exception_notification', '~> 2.5.2'
+gem 'exception_notification', '~> 2.5.2'
 gem 'open_id_authentication'
 
 # Bundle gems for the local environment. Make sure to
