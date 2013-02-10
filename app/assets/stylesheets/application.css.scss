@@ -44,7 +44,6 @@ body
   font-size: 8pt;
   padding-top: 5px;
   padding-bottom: 5px;
-  padding-left: 5px;
   color: gray;
   width: 985px;
   border-bottom: solid 1px #5C7A99;
@@ -205,18 +204,18 @@ div.meta
   padding-left: 0em;
   padding-bottom: 0.5em;
   display: inline;
-  color: #cccccc;
+  color: gray;
 	font-size: 9pt;
 }
 .archive-month .tags
 {
-  color: #bbbbbb;
+  color: gray;
 }
 
 .meta a, .archive-month .tags a
 {
-  color: #bbbbbb;
-  border-bottom: dotted 1px #bbbbbb;
+  color: #838383;
+  border-bottom: dotted 1px #838383;
 }
 
 .meta a:hover
