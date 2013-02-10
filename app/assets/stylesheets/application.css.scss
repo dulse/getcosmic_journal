@@ -10,63 +10,64 @@
  *
  *= require_self
  */
-
 /* High level containers */
+
 body
 {
   color: black;
-
-  font: normal 12px verdana, arial, helvetica, sans-serif;
+  font: normal 12px georgia, helvetica, arial, serif;
   line-height: 1.5;
-  padding: 0px;
-  margin: 0px;
+  padding: 2px;
+  margin: 2px;
+  background-image: url('/subtle_grunge/subtle_grunge.png');
 }
 
 #page_container
 {
   position: absolute;
   min-height: 400px;
-
   color: black;
-	width: 100%;
+  width: 100%;
 }
 
 #content {
 	width: 900px;
-  margin: 5px auto;
+    margin: 5px auto;
 	position: relative;
-	padding-right: 55px;
-/*	display: inline;*/
+	padding-right: 75px;
+	padding-left: 20px;
 }
 
 #footer
 {
   position: relative;
   font-size: 8pt;
-/*  padding-top: 5px;*/
-  padding-right: 15px;
+  padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 5px;
   color: gray;
-/*  border-bottom: solid 1px #aaaaaa;*/
+  width: 985px;
+  border-bottom: solid 1px #5C7A99;
 }
 
 /* Headings */
 h1#page_heading
 {
-  font-size: 24pt;
-	color: #000 !important;
+  font-size: 35pt;
+  color: #95953C !important;
+  width: 985px;
+  border-bottom: solid 1px #5C7A99;
 }
 
 h2
 {
   font-size: 1.4em;
-  color: #333333;
+  color: #95953C;
 }
 
 h2 a, h3, h4, h5
 {
-  color: #333333;
+  color: #95953C;
 }
 
 /* Text */
@@ -94,8 +95,7 @@ strong
 
 a
 {
-  color: #000051;
-
+  color: #95953C;
   text-decoration: none;
 }
 
@@ -106,12 +106,18 @@ small a, label a
 
 a:hover
 {
-  text-decoration: underline;
+  color: #5C7A99;
 }
 
 #footer a
 {
   color: gray;
+  text-decoration: underline;
+}
+
+#footer a:hover
+{
+  color: #5C7A99;
   text-decoration: underline;
 }
 
@@ -125,9 +131,8 @@ img
 {
   position: absolute;
   width: 15em;
-  top: -1px;
+  top: 98px;
   right: -1px;
-
   border: none;
   padding: 5px;
 }

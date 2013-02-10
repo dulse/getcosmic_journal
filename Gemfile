@@ -28,6 +28,7 @@ platforms :jruby do
 end
 
 gem 'jquery-rails'
+gem 'less-rails-bootstrap'
 
 # Use unicorn as the web server
 # gem 'unicorn'

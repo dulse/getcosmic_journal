@@ -49,6 +49,7 @@ GEM
     childprocess (0.3.0)
       ffi (~> 1.0.6)
     coderay (1.0.5)
+    commonjs (0.2.6)
     cucumber (1.1.4)
       builder (>= 2.1.2)
       diff-lcs (>= 1.1.2)
@@ -98,6 +99,13 @@ GEM
       addressable (~> 2.2.6)
       ffi (~> 1.0.9)
       spoon (~> 0.0.1)
+    less (2.2.2)
+      commonjs (~> 0.2.6)
+    less-rails (2.2.6)
+      actionpack (>= 3.1)
+      less (~> 2.2.0)
+    less-rails-bootstrap (2.2.1)
+      less-rails (~> 2.2.0)
     lesstile (1.0.1)
     libv8 (3.11.8.13)
     mail (2.4.4)
@@ -215,6 +223,7 @@ DEPENDENCIES
   formtastic
   jquery-rails
   jruby-openssl
+  less-rails-bootstrap
   lesstile
   nokogiri (~> 1.5.0)
   open_id_authentication
